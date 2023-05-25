@@ -1,0 +1,90 @@
+body {
+    color: orange;
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    background-color: #03052E;
+}
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.movie-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0px 0px 14px #FFA500;
+}
+.movie-card:hover {
+    background-color: #c2d0db;
+    box-shadow: 0px 0px 14px yellow;
+}
+.movie-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.movie-image {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.movie-next {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+.sidebar {
+    width: 38px;
+    background-color: #24142E;
+    float: left;
+    color: #FFF;
+    padding: 10px;
+    height: 680px;
+    min-height: 160vh;
+}
+ul{
+    list-style: none;
+    padding: 2px;
+    color: white;
+}
+ul:visited{
+    color: yellow;
+}
+.logo {
+    margin-bottom: 20px;
+    padding:5px;
+    font-size: xxx-large;
+    color:orange;
+}
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+.logo-bottom-right {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.play-button {
+    background-color: #FF4500;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.play-button:hover {
+    background-color: #FF6347;
+}
+
+.info-button {
+    background-color: #4682B4;
+    color: white;
+    padding: 10px 20px;
+}
