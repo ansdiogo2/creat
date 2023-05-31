@@ -27,6 +27,15 @@ com título, descrição e upload de imagem.
 
 Por algum motivo o Heroku permanece fora do ar.
 
+## Hospedagem
+
+Devido à falha no Heroku, hospedei o mesmo em outro Host, o qual pode ser acessado no link abaixo:
+[https://catalogodefilmes.emmanaus.com.br/](https://catalogodefilmes.emmanaus.com.br/)
+
+## Uso do Gitflow
+
+Devido ao gitflow o código fonte somente será visível na branch dev
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
